@@ -2,7 +2,16 @@
 using namespace std;
 
 int main() {
- 
+    const int height = 61;
+    const int weight = 130;
 
+    // Calculations
+    double kg = weight * 0.453592;
+    double m = height * 0.0254;
+
+    // BMI Calculation
+    double bmi = kg / (m * m);
+
+    cout << "The BMI for this person is: " << bmi << endl;
 
 }
